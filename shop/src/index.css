@@ -1,0 +1,16 @@
+body {
+  min-width: auto;
+  min-height: auto;
+  /* background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+  background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613134012_186-p-fon-gradient-rozovo-zheltii-220.jpg);
+}
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+header {
+  background-color: black;
+}

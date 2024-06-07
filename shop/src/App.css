@@ -1,0 +1,189 @@
+#root {
+  max-width: 1920px;
+}
+
+.headerStyle {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: auto;
+}
+
+.logoStyle {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 5px;
+}
+
+.logoStyle img {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 15px;
+  float: left;
+}
+
+.logoStyle h1 {
+  font-size: 30px;
+  margin-top: 20px;
+  display: inline-block;
+  text-shadow: 1px 1px 5px white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card {
+  margin-top: 40px;
+  width: 350px;
+  height: 300px;
+  margin-left: 110px;
+  display: inline-block;
+  padding: 2em;
+  border: 1.5px solid black;
+  vertical-align: top;
+  box-shadow: 3px 3px black;
+}
+
+.card-title {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.productName {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  text-shadow: 3px 3px black;
+  margin-top: 30px;
+}
+
+.string-card {
+  height: 430px; /* Пример дополнительного изменения размера */
+}
+
+.string-img{
+  width: 180px;
+  margin-left: 50px;
+}
+
+
+.loginButton {
+  vertical-align: middle;
+  display: inline-block;
+  margin-top: 2px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.loginButton:hover button{
+  background-color:rgba(238,174,202,1);
+}
+
+.loginButton button{
+  transition: background-color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.searchBarStyle {
+  display: inline-block;
+  margin-right: 440px;
+  margin-left: 420px;
+  vertical-align: middle;
+  margin-top: auto;
+}
+
+.searchBar input[type="text"] {
+  width: 200px;
+  padding: 7px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+}
+
+.shoppingCartStyle {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 20px;
+  margin-right: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cartItemsPopup {
+  position: absolute;
+  top: auto;
+  right: 0;
+  background-color: white;
+  border: 2px solid black;
+  padding: 5px;
+  display: none;
+  z-index: 100;
+  width: auto;
+  min-width: 200px; 
+}
+
+.shoppingCart {
+  position: relative;
+  padding-bottom: 17px;
+}
+
+.shoppingCartButton:hover{
+  background-color:rgba(238,174,202,1);
+}
+
+.shoppingCartButton{
+    transition: background-color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.shoppingCart:hover .cartItemsPopup {
+  display: block;
+}
+
+.loginStyle {
+  text-align: center;
+  margin-top: 160px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.loginStyle h1 {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  text-shadow: 3px 3px black;
+}
+
+.formStyle {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.emailStyle, .passwordStyle, .signStyle {
+  margin-top: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.registerStyle {
+  text-align: center;
+  margin-top: 160px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.registerStyle h1 {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  text-shadow: 3px 3px black;
+}
+
+.regformStyle {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.remailStyle, .rpasswordStyle, .rpasswordConfirmStyle, .rregisterStyle {
+  margin-top: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer{
+  width: 1550;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-top: 50px;
+}
